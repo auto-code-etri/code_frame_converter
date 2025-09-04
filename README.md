@@ -1,8 +1,8 @@
-\# CodeFrameConverter
+CodeFrameConverter
 
 
 
-\## 📌 Project Overview
+📌 Project Overview
 
 This project is a pipeline designed to \*\*automatically collect, refine, and convert crawled code data into high-quality datasets for LLM training\*\*.  
 
@@ -14,7 +14,7 @@ It follows the process of \*\*Code Crawling → DataFrame Conversion → Filteri
 
 
 
-\## 🚀 Key Features
+🚀 Key Features
 
 
 
@@ -58,7 +58,7 @@ It follows the process of \*\*Code Crawling → DataFrame Conversion → Filteri
 
 
 
-\## 📂 Folder Structure
+📂 Folder Structure
 
 root/
 
@@ -84,7 +84,7 @@ root/
 
 
 
-\## ⚙️ Installation
+⚙️ Installation
 
 ```bash
 
@@ -92,7 +92,8 @@ pip install -r requirements.txt
 
 
 
-\## Output
+ Output
 
 High-quality code–natural language paired dataset for LLM training (in code\_converted folder)
+
 
