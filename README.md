@@ -1,6 +1,6 @@
-CodeFrameConverter
+# CodeFrameConverter
 
-📌 Project Overview
+## Project Overview
 
 This project is a pipeline designed to \*\*automatically collect, refine, and convert crawled code data into high-quality datasets for LLM training\*\*.  
 
@@ -8,7 +8,7 @@ It follows the process of \*\*Code Crawling → DataFrame Conversion → Filteri
 
 ---
 
-🚀 Key Features
+## Key Features
 
 1. Code Crawling (step0\_crawling.ipynb)  
   - Collect code from web/repositories and save it in JSON format
@@ -30,7 +30,7 @@ It follows the process of \*\*Code Crawling → DataFrame Conversion → Filteri
 
 ---
 
-📂 Folder Structure
+## Folder Structure
 
 root/
 
@@ -54,10 +54,14 @@ root/
 
 │── README.md
 
+---
+## Installation
 
-⚙️ Installation
 pip install -r requirements.txt
 
-⚙️ Output
+---
+## Output
+
 High-quality code–natural language paired dataset for LLM training (in code\_converted folder)
+
 
