@@ -1,0 +1,8 @@
+pandas
+tqdm
+langchain
+langchain-core
+langchain-community
+langchain-openai
+transformers
+chardet
