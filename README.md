@@ -86,14 +86,13 @@ root/
 
 ⚙️ Installation
 
-```bash
-
 pip install -r requirements.txt
 
 
 
- Output
+⚙️ Output
 
 High-quality code–natural language paired dataset for LLM training (in code\_converted folder)
+
 
 
