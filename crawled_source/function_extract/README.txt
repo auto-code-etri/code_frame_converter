@@ -1,0 +1,1 @@
+This folder exists for containing extracted functions from crawled source codes temporarily.
