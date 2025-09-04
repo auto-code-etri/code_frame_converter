@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project is a pipeline designed to \*\*automatically collect, refine, and convert crawled code data into high-quality datasets for LLM training\*\*.  
+This project is a pipeline designed to automatically collect, refine, and convert crawled code data into high-quality datasets for LLM training.  
 
-It follows the process of \*\*Code Crawling → DataFrame Conversion → Filtering \& Scoring → Natural Language Conversion\*\*, with the goal of generating clean and useful parallel datasets of code and text.
+It follows the process of Code Crawling → DataFrame Conversion → Filtering \& Scoring → Natural Language Conversion, with the goal of generating clean and useful parallel datasets of code and text.
 
 ---
 
@@ -63,5 +63,6 @@ pip install -r requirements.txt
 ## Output
 
 High-quality code–natural language paired dataset for LLM training (in code\_converted folder)
+
 
 
