@@ -48,6 +48,12 @@ def filter_by_numline_limit(df, lineno):
     filtered_df = df[df['line_count']<lineno].reset_index(drop=True)
     return filtered_df
 
+## df에서 line_count 컬럼을 조사해서, lineno 초과인 코드만 취한다. 즉, # line > lineno 인것만 가져옴옴
+def filter_by_numline_over(df, lineno):
+    ## 라인이 너무 많은 것은 필터링하고, 인덱스를 순서대로 가지련히 다시 정렬
+    filtered_df = df[df['line_count']>lineno].reset_index(drop=True)
+    return filtered_df
+
 # df에서 code 컬럼을 조사해서, code 내부에 함수가 2개 이상인 것이 있으면, 제거한다.
 def filter_by_removing_multiple_functions(df):
     df.loc[:,"function_count"] = 0
