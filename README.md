@@ -6,6 +6,8 @@ This project is a pipeline designed to automatically collect, refine, and conver
 
 It follows the process of Code Crawling → DataFrame Conversion → Filtering \& Scoring → Natural Language Conversion, with the goal of generating clean and useful parallel datasets of code and text.
 
+![image](./overview_code_frame_converter.png)
+
 ---
 
 ## Key Features
@@ -63,6 +65,7 @@ pip install -r requirements.txt
 ## Output
 
 High-quality code–natural language paired dataset for LLM training (in code\_converted folder)
+
 
 
 
